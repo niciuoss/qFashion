@@ -1,7 +1,7 @@
 qFashion
 
 equipe: <br>Vinícius Amorim Sales Lopes - 499641
-Ruan Diego Guimarães do Nascimento - 495301
+<br>Ruan Diego Guimarães do Nascimento - 495301
 Francisco Edvaldo de Oliveira Junior - 494418
 
 Links:

@@ -1,8 +1,8 @@
 <h1>qFashion</h1>
 
 <h2>Equipe</h2> 
-<br>Vinícius Amorim Sales Lopes - 499641
-<br>Ruan Diego Guimarães do Nascimento - 495301
+<br>Vinícius Amorim Sales Lopes - 499641 - https://github.com/niciuoss
+<br>Ruan Diego Guimarães do Nascimento - 495301 - https://github.com/Ruan-Diego
 <br>Francisco Edvaldo de Oliveira Junior - 494418
 
 <h2>Links</h2> 

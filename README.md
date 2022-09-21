@@ -1,9 +1,9 @@
-<h1>qFashion<h1>
+<h1>qFashion</h1>
 
-<h2>Equipe<h2> 
-<br>Vinícius Amorim Sales Lopes - 499641
-<br>Ruan Diego Guimarães do Nascimento - 495301
-<br>Francisco Edvaldo de Oliveira Junior - 494418
+<h2>Equipe</h2> 
+<br><h3>Vinícius Amorim Sales Lopes - 499641</h3> 
+<br><h3>Ruan Diego Guimarães do Nascimento - 495301</h3> 
+<br><h3>Francisco Edvaldo de Oliveira Junior - 494418</h3> 
 
 <h2>Links<h2> 
 <br>Trello: https://trello.com/b/oVqE7swg/projeto-integrado-iii

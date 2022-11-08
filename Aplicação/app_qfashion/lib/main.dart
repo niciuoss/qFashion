@@ -1,4 +1,6 @@
 import 'package:app_qfashion/models/user_manager.dart';
+import 'package:app_qfashion/screens/login/login_screen.dart';
+import 'package:app_qfashion/screens/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -40,7 +42,28 @@ class MyApp extends StatelessWidget {
           ),
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        home: BaseScreen(),
+        initialRoute: '/login',
+        onGenerateRoute: (settings){
+          switch(settings.name){
+            case'/login':
+              return MaterialPageRoute(
+                  builder: (_)=> LoginScreen()
+              );
+            case'/base':
+              return MaterialPageRoute(
+                  builder: (_)=> BaseScreen()
+              );
+            case'/signup':
+              return MaterialPageRoute(
+                  builder: (_)=> SignUpScreen()
+              );
+            default:
+              return MaterialPageRoute(
+                  builder: (_)=> LoginScreen()
+              );
+          }
+        },
+        // home: BaseScreen(),
       ),
     );
   }

@@ -23,6 +23,15 @@ class LoginScreen extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Entrar'),
         centerTitle: true,
+        actions: <Widget>[
+          TextButton(
+            onPressed: (){
+              Navigator.of(context).pushReplacementNamed('/signup');
+            },
+            child: new Text('Criar Conta', style: TextStyle( fontSize: 14, color: Colors.white)
+            )
+          )
+        ],
       ),
       body: Center(
         child: Card(
@@ -78,7 +87,9 @@ class LoginScreen extends StatelessWidget {
                             userManager.signIn(
                                 userData: UserData(
                                     email: emailController.text,
-                                    password: passController.text
+                                    password: passController.text,
+                                    name: '',
+                                    confirmPassword: ''
                                 ),
                                 onFail: (e){
                                   ScaffoldMessenger.of(context).showSnackBar(
@@ -88,6 +99,9 @@ class LoginScreen extends StatelessWidget {
                                         backgroundColor: Colors.red,
                                       )
                                   );
+                                },
+                                onSuccess: (){
+
                                 }
                             );
                           }

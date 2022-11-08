@@ -52,7 +52,7 @@ class MyApp extends StatelessWidget {
           ),
           visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        initialRoute: '/login',
+        initialRoute: '/base',
         onGenerateRoute: (settings){
           switch(settings.name){
             case'/login':

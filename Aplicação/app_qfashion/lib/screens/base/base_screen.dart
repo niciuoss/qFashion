@@ -3,6 +3,8 @@ import 'package:app_qfashion/models/page_maneger.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../login/login_screen.dart';
+
 class BaseScreen extends StatelessWidget {
 
   final PageController pageController = PageController();
@@ -15,12 +17,13 @@ class BaseScreen extends StatelessWidget {
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
         children: <Widget>[
-          Scaffold(
-            drawer: CustomDrawer(),
-            appBar: AppBar(
-              title: const Text('Home'),
-            ),
-          ),
+          LoginScreen(),
+          // Scaffold(
+          //   drawer: CustomDrawer(),
+          //   appBar: AppBar(
+          //     title: const Text('Home'),
+          //   ),
+          // ),
           Scaffold(
             drawer: CustomDrawer(),
             appBar: AppBar(

@@ -28,7 +28,12 @@ class MyApp extends StatelessWidget {
       title: 'App qFashion',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.pink,
+        primaryColor: const Color.fromARGB(255, 0, 75, 100),
+        scaffoldBackgroundColor: const Color.fromARGB(255, 33, 33, 33),
+        appBarTheme: const AppBarTheme(
+          elevation: 0,
+          color: const Color.fromARGB(255, 0, 75, 100)
+        ),
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: BaseScreen(),

@@ -1,3 +1,4 @@
+import 'package:app_qfashion/models/product_manager.dart';
 import 'package:app_qfashion/models/user_manager.dart';
 import 'package:app_qfashion/screens/login/login_screen.dart';
 import 'package:app_qfashion/screens/signup/signup_screen.dart';
@@ -16,20 +17,29 @@ Future <void> main() async {
 
   runApp(MyApp());
   //FirebaseFirestore.instance.collection('usuarios').add({'usuario':'Usuario'});
-  FirebaseFirestore.instance
-      .collection('usuarios')
-      .doc('XiuMe9Sf2vC0QHUQFnv9')
-      .snapshots()
-      .listen((doc) {
-    print(doc.data());
-  });
+  // FirebaseFirestore.instance
+  //     .collection('usuarios')
+  //     .doc('XiuMe9Sf2vC0QHUQFnv9')
+  //     .snapshots()
+  //     .listen((doc) {
+  //   print(doc.data());
+  // });
 }
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (_) =>UserManager(),
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => UserManager(),
+          lazy: false,
+        ),
+        ChangeNotifierProvider(
+          create: (_) => ProductManager(),
+          lazy: false,
+        )
+      ],
       child: MaterialApp(
         title: 'App qFashion',
         debugShowCheckedModeBanner: false,

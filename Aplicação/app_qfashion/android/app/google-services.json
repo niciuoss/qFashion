@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "640255228311",
+    "project_id": "qfashion-69714",
+    "storage_bucket": "qfashion-69714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640255228311:android:11bf9a191c30086f3aacd2",
+        "android_client_info": {
+          "package_name": "br.com.qfashion.app_qfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640255228311-vsnv3sql1ncdogitm9nbmcko2asscdg8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcATPzgS-salsTaAmU2XqTT1E9_hUOiDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "640255228311-vsnv3sql1ncdogitm9nbmcko2asscdg8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

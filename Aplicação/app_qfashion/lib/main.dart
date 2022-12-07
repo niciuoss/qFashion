@@ -1,11 +1,13 @@
 import 'package:app_qfashion/models/product_manager.dart';
 import 'package:app_qfashion/models/user_manager.dart';
 import 'package:app_qfashion/screens/login/login_screen.dart';
+import 'package:app_qfashion/screens/product/product_screen.dart';
 import 'package:app_qfashion/screens/signup/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'models/product.dart';
 import 'screens/base/base_screen.dart';
 import 'package:provider/provider.dart';
 
@@ -66,6 +68,12 @@ class MyApp extends StatelessWidget {
             case'/signup':
               return MaterialPageRoute(
                   builder: (_)=> SignUpScreen()
+              );
+            case'/product':
+              return MaterialPageRoute(
+                builder: (_)=> ProductScreen(
+                  settings.arguments as Product
+                )
               );
             default:
               return MaterialPageRoute(

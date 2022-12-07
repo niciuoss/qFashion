@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-0 C:\Users\ruand\.gradle\caches\transforms-3\006d93cd422dbc43e89591147c2de572\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-1 C:\Users\ruand\.gradle\caches\transforms-3\4ca28c4a71705f8a687c69dda140a277\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-2 C:\Users\ruand\.gradle\caches\transforms-3\8965c941cf4bee4d72541b965c7c9d39\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.2.0-3 C:\Users\ruand\.gradle\caches\transforms-3\b5e728725b3ced5d22a9ea6a67d1b7be\transformed\jetified-firebase-common-20.2.0\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-4 C:\Users\ruand\.gradle\caches\transforms-3\dee59bb480020f42d53c2ea15e4501f7\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-5 C:\Users\ruand\.gradle\caches\transforms-3\f46b9773282b7a3d38863a46e0e0b5d1\transformed\jetified-play-services-basement-18.1.0\res
+io.flutter.plugins.firebase.core.firebase_core-pngs-6 D:\GitHub\qFashion\build\firebase_core\generated\res\pngs\release
+io.flutter.plugins.firebase.core.firebase_core-resValues-7 D:\GitHub\qFashion\build\firebase_core\generated\res\resValues\release
+io.flutter.plugins.firebase.core.firebase_core-rs-8 D:\GitHub\qFashion\build\firebase_core\generated\res\rs\release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-9 D:\GitHub\qFashion\build\firebase_core\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-10 D:\GitHub\qFashion\build\firebase_core\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-11 D:\GitHub\qFashion\build\firebase_core\intermediates\merged_res\release
+io.flutter.plugins.firebase.core.firebase_core-main-12 D:\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-2.3.0\android\src\main\res
+io.flutter.plugins.firebase.core.firebase_core-release-13 D:\flutter\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-2.3.0\android\src\release\res

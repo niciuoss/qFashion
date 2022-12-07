@@ -12,6 +12,15 @@ jobs:
         flutter-version: '3.0.5'
         channel: 'stable'
 
+    - name: Setup Java
+        uses: actions/setup-java@v1
+        with:
+          java-version: '12.x'
+
+    - name: Run Flutter Pub Get
+      run: flutter pub get
+   
+   
     - run: flutter --version
 
 

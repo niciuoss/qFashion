@@ -14,7 +14,8 @@ jobs:
           channel: stable
           version: 3.0.2
 
-
+      - name: run
+      - run: flutter run lib/main.dart
 
 
 

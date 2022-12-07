@@ -4,15 +4,14 @@ on: [ push ]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
-      - name: Setup Flutter SDK
-        uses: flutter-actions/setup-flutter@v2
-        with:
-          channel: stable
-          version: 3.0.2
+    - uses: subosito/flutter-action@v2
+      with:
+        flutter-version: '3.0.5'
+        channel: 'stable'
 
+    - run: flutter --version
 
 

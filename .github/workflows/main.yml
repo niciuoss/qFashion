@@ -14,9 +14,5 @@ jobs:
           channel: stable
           version: 3.0.2
 
-      - name: run
-      - run: flutter pub upgrade
-
-
 
 

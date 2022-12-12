@@ -1,16 +1,10 @@
-# app_qfashion
+<h1>qFashion</h1>
 
-A new Flutter project.
+<h2>Equipe</h2> 
+<br>Vinícius Amorim Sales Lopes - 499641 - https://github.com/niciuoss
+<br>Ruan Diego Guimarães do Nascimento - 495301 - https://github.com/Ruan-Diego
+<br>Francisco Edvaldo de Oliveira Junior - 494418 - https://github.com/EdOliveiraJr
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<h2>Links</h2> 
+<br>Trello: https://trello.com/b/oVqE7swg/projeto-integrado-iii
+<br>Figma: https://www.figma.com/file/CnnH5cHqxrsuGwJxdRFglO/PIES03---QFashion?node-id=0%3A1
